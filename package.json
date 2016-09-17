@@ -1,0 +1,19 @@
+{
+  "name": "cellularAutomata",
+  "version": "1.0.0",
+  "description": "mob programming cellular automata with a youtube video",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify index.js -o bundle.js",
+    "browser-sync": "browser-sync start -s --files index.*",
+    "bundle": "browserify index.js -o bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "browserify": "^13.1.0",
+    "watchify": "^3.7.0"
+  }
+}
